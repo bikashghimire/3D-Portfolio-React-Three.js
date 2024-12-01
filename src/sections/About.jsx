@@ -23,10 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Bikash Ghimire</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With four years of experience, I have honed my skills in full stack development focusing on front end
+                development, creating dynamic and responsive websites, resuable User Interface components.
               </p>
             </div>
           </div>
@@ -58,12 +58,12 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 400, lng: -100, text: 'Helsinki, Finland', color: 'white', size: 15 }]}
               />
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Helsinki, Finland and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -76,8 +76,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I love solving problems and building things through code. Programming isn&apos;t just my profession.
+                It&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
               </p>
             </div>
           </div>
@@ -95,7 +95,9 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                  bikashghimire2610@gmail.com
+                </p>
               </div>
             </div>
           </div>

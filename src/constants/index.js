@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Tuomas Oksanen',
+    position: 'Agile Coach at Metso Finland Oy',
+    img: 'assets/linkedinavatar.jpg',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'I have had the priviledge to work with Bikash in both the same team and in the same organization during the past years. He is a talented young developer who has already demonstrated that he has the needed skillset to be a great developer. He possesses a growth mindset and is always looking for places to improve himself and the team he works in. On top of his technical expertise he has the understanding and appreciation of design and design systems to make digital development better.He is a strong team player and not afraid to step in to take responsibility when that is needed.I can honestly recommend Bikash as team member and a developer for any organization looking for a skilled, motivated and collaborative developer and would be more than happy to work with him again in the future!',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Piia Alavesa',
+    position: 'Manager, Design megasystem at Metso Finland Oy',
+    img: 'assets/linkedinavatar.jpg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'I have had the pleasure of working with Bikash, and I can say he is a good software developer. His expertise in developing our Design System and supporting all the other product teams has been great. He delivers quality code but also ensures the work is on time and meets the requirements. He is also innovative and willing to try out new things, technology and ways of working. Bikash is a good team player. He can explain technical concepts in a way that is easy to understand benefiting cross-functional collaboration. His attitude and willingness to support and work with colleagues makes him a joy to work with.I highly recommend Bikash for any software development role. He possesses a combination of technical skill, creativity, and teamwork and I would be happy to work with Bikash any time again!',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Aziz Alzayed',
+    position: 'Senior Software Engineer at Metso Finland Oy',
+    img: 'assets/linkedinavatar.jpg',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I had the pleasure of meeting Bikash while working at Metso.Bikash is incredibly eager to develop himself and always demonstrates a proactive attitude in both learning and contributing.He is highly active and collaborative, always willing to help his colleagues while never hesitating to seek knowledge or ask questions when tackling new challenges. His commitment to personal growth and his positive attitude make him a valuable asset to any team.I’m certain Bikash will excel in his future endeavors, and I wholeheartedly recommend him to any organization looking for a dedicated and talented individual.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Pawan Singh',
+    position: 'Data Analyst at Technotree Corporation',
+    img: 'assets/linkedinavatar.jpg',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'I have had the privilege of working with Bikash on a group project and as a study partner. His skills as a software developer are exceptional, and I am grateful for his mentorship in my early programming days. Bikash communication skills and helpfulness make him a valuable team member, always pushing for optimal results.What sets Bikash apart is his ability to create an engaging work environment while maintaining high productivity. His extensive technical knowledge, combined with his approachable nature, makes him an excellent resource for any team.I strongly recommend Bikash for any software development role. His technical expertise and interpersonal skills would be an asset to any organization fortunate enough to have him.',
   },
 ];
 
@@ -260,29 +260,41 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Metso Finland Oy',
+    pos: 'Software Engineer',
+    duration: 'MAY 2023 - Present',
+    title:
+      'Metso, headquartered in Helsinki, Finland, is a global leader in sustainable technologies for aggregates, minerals processing, and metals refining, with sales of EUR 5.3 billion in 2022. The role involves developing scalable design systems, ensuring quality through automated testing, and collaborating with cross-functional teams. Proficiency in front-end technologies (React, TypeScript, Figma, Git) and frameworks (React, Vue, Angular) is essential. Key responsibilities span product development from inception to post-launch, focusing on reusable UI components and system refinement.',
+    icon: '/assets/metso_logo.jpeg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
+    name: 'Funky Salsa Oy',
     pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    duration: 'AUG 2022 - MAR 2023',
+    title:
+      'Funky Salsa Oy, based in Helsinki, specializes in the bar and beverage industry. As a freelance developer, I contribute by creating innovative solutions like an order-handling website and sales dashboards, optimizing scalability and cross-browser compatibility, and enhancing backend systems with Express.js. My expertise in PHP, JavaScript, and TypeScript supports Funky Salsa digital and operational needs.',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
+    name: 'Integrify Oy',
+    pos: 'Full Stack Developer Training Program',
+    duration: 'JAN 2022 - JUN 2022',
+    title:
+      'I completed a six-month intensive full-stack development program at Integrify in 2022, focusing on modern web development technologies like React, TypeScript, NodeJS, and MongoDB. My role involved designing client-server architecture, developing dynamic applications, testing for efficiency, and ensuring cross-platform optimization. I gained expertise in tools and frameworks such as Redux, Firebase, Material UI, and NestJS, along with skills in security principles, DevOps, and Python.',
+    icon: '/assets/integify_logo.jpeg',
+    animation: 'salute',
+  },
+  {
+    id: 3,
+    name: 'Centria R & D Oy',
+    pos: 'Intern Software Developer',
     duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    title:
+      'During my six-month internship at Centria University of Applied Sciences, I contributed to Game Development and Web Development projects. In Game Development, I collaborated on two Arduino-based games for a university event, gaining skills in JIRA, Agile, and C++. For Web Development, I built user interfaces and web applications using HTML, CSS, PHP, and APIs, culminating in a work management tool delivered to a company in Kokkola. This experience deepened my expertise in team collaboration, Agile methodologies, and secure web development practices.',
+    icon: '/assets/centrialogo.png',
     animation: 'salute',
   },
 ];
